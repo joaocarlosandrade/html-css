@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*Todas as demais mídias*/
+/*
+Typical Device Breakpoints/pesquisa realizada no 3wc
+---------------------------
+pequenas telas:até 600px
+celular:600px até 768px
+tablet: 768px até 992px
+pc:992px até 1200px
+grandes telas:acima de 1200px
+*/
+@media print {
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image:url(../imagens/back-tablet.jpg)
+    }
+        img#phone{display: none;}
+        img#tablet{display:block;}
+        img#print{display:none;}
+        img#pc{display:none;}
+        img#tv{display:none;}
+}
+
+
+
+  
+   
+     
+
+
