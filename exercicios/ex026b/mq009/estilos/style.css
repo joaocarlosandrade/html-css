@@ -26,7 +26,7 @@ menu > ul {
 
 }
  menu > ul > li > a {
-    display: block;
+    display: none;
     padding: 10px;
     text-decoration: none;
     text-align: center;
@@ -54,3 +54,17 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
 }
+span#burguer{
+    display: block;
+    background-color:rgb(32, 32, 32);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span#burguer:hover {
+    background-color: white;
+    color:black;
+
+}
+
+
